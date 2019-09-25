@@ -1,0 +1,23 @@
+#main-header {
+  .container {
+    @include flexbox;
+    @include align-items(center);
+    .site-branding {
+      text-align: center;
+    }
+  }
+}
+@include media-breakpoint-up(lg) {
+  .site-header {
+    #main-header {
+      .container {
+        display: block;
+        .site-branding {
+          a {
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+}

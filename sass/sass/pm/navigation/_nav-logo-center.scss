@@ -1,0 +1,10 @@
+@include media-breakpoint-up($breakpoint__mobile-nav) {
+	#main-header {
+		.container {
+			.navbar-primary {
+				@include justify-content(center);
+				@include align-items(center);
+			}
+		}
+	}
+}
