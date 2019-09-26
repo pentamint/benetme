@@ -3,12 +3,25 @@
 .navbar-primary .btn-search-toggle { // normal
     background-color: #fff;
     color: #000;
-}
-.navbar-primary .btn-search-toggle:hover {
-    background-color: #f2f2f2;
-    color: #000;
+    &:hover {
+        background-color: #fff;
+        color: #000;        
+    }
 }
 .btn.btn-primary:not(:disabled):not(.disabled):active, .btn.btn-primary:not(:disabled):not(.disabled).active, .show > .btn.btn-primary.dropdown-toggle { // after click
+    background-color: #fff;
+    color: #000;
+}
+// searchform button
+#searchform .btn-primary {
+    background-color: #fff;
+    color: #000;
+    &:hover {
+        background-color: #f2f2f2;
+        color: #000;           
+    }
+}
+#searchform .btn.btn-primary:not(:disabled):not(.disabled):active, #searchform .btn.btn-primary:not(:disabled):not(.disabled).active, .show > #searchform .btn.btn-primary.dropdown-toggle  {
     background-color: #f2f2f2;
     color: #000;
 }

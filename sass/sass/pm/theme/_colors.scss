@@ -16,38 +16,6 @@
     }
   }
 }
-// --- Footer --- //
-#top-footer {
-  background-color: $top-footer-bg-color;
-}
-#main-footer {
-  background-color: $footer-bg-color;
-  border-top-color: $secondary-color;
-}
-#bottom-footer {
-  background-color: $bottom-footer-bg-color;
-  border-top-color: $line-color-ng;
-  .container {
-    .row {
-      > div {
-        &:nth-of-type(1) {
-          // column 1
-          footer {
-            .site-info {
-              color: $font-color-ng;
-              > a {
-                color: $font-color-ng;
-                &:hover {
-                  color: $font-color-ng-ac;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
 
 // ----- Medium Devices and Smaller (xs,sm,md) ----- //
 @media (max-width: 991.98px) {
@@ -177,37 +145,6 @@
                       // current main nav menu item color
                       color: $accent-color;
                     }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  #top-footer {
-    background-color: $top-footer-bg-color;
-  }
-  #main-footer {
-    background-color: $footer-bg-color;
-    border-top-color: $secondary-color;
-  }
-  #bottom-footer {
-    background-color: $bottom-footer-bg-color;
-    border-top-color: $line-color-ng;
-    .container {
-      .row {
-        > div {
-          &:nth-of-type(1) {
-            // column 1
-            footer {
-              .site-info {
-                color: $font-color-ng;
-                > a {
-                  color: $font-color-ng;
-                  &:hover {
-                    color: $font-color-ng-ac;
                   }
                 }
               }

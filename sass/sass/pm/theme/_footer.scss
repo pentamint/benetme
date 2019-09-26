@@ -2,70 +2,75 @@
 
 // ----- Theme Style ----- //
 
-#top-footer {
-  .container {
-    .row {
-      @include align-items(center);
-      .top-footer-nav {
-        > ul { // #menu-top-footer-menu .navbar-nav
-          @include flex-direction(row);
-          @include justify-content(center);
-          > li { // .nav-item
-            > a { // .nav-link
-              padding: 1rem 1.25rem;
-              font-weight: 900;
-              color: $font-color-ng;
-              &:hover {
-                color: $font-color-ng-ac;
-              }
-            }
-          }
-        }
-      }
-      .top-footer-social-links {
-        .social_links {
-          a {
-            color: #fff;
-            &:hover {
-              color: $accent-color;
-            }
-          }
-        }
-      }
-    }
-  }
-}
 #main-footer {
+  background-color: #e2e2e2;
+  border-color: #e2e2e2;
   .container {
     position: relative;
-    footer { // #footer-sidebar .row .widget-area
-      color:#e9e9e9;
-      padding: 4rem 0 2rem 0;
+    footer {
+      // #footer-sidebar .row .widget-area
+      color: #000;
+      padding: 2rem 0 2rem 0;
       a {
-        color: #e9e9e9;
+        color: #000;
       }
       > div {
         // footer sidebar columns bottom margins
         margin-bottom: 1.25rem;
+        section {
+          h2 {
+            @include rfs(18);
+            margin-bottom: 1rem;
+          }
+        }
+      }
+      // Footer Lists
+      ul {
+        li {
+          margin-bottom: 0.623rem;         
+        }
+      }
+      // Footer Text Widgets
+      .widget_text {
+        margin-bottom: 0;
+        h2.widget-title {
+          margin-bottom: 1rem;
+        }
+        .textwidget {
+          @include rfs(12);
+          p {
+            margin-bottom: 0.623rem;
+          }
+        }
       }
     }
   }
 }
 #bottom-footer {
+  background-color: #191e23;
+  border-color: #191e23;
   .container {
     .row {
+      @include justify-content(center);
       padding: 1.25rem 0;
       > div {
-        &:nth-of-type(1) { // column 1
-          padding-bottom: 45px;
+        &:nth-of-type(1) {
+          // column 1
+          // padding-bottom: 45px;
           text-align: center;
           .site-footer {
+            text-align: center;
             .site-info {
               @include rfs(11);
+              color: #ccc;
+              a {
+                color: #ccc;
+              }
             }
           }
         }
-        &:nth-of-type(2) { // column 2
+        &:nth-of-type(2) {
+          // column 2
           position: absolute;
           left: 0;
           bottom: 0;
@@ -74,7 +79,8 @@
           border-top: 1px solid #444;
           .btn-group {
             width: 100%;
-            button { // .btn-colophon .dropdown-toggle .btn
+            button {
+              // .btn-colophon .dropdown-toggle .btn
               width: 100%;
               padding: 12px;
               background-color: #222;
@@ -94,10 +100,13 @@
     .container {
       .row {
         .top-footer-nav {
-          > ul { // #menu-top-footer-menu .navbar-nav
+          > ul {
+            // #menu-top-footer-menu .navbar-nav
             @include justify-content(flex-start);
-            > li { // .nav-item
-              > a { // .nav-link
+            > li {
+              // .nav-item
+              > a {
+                // .nav-link
                 padding: 0.75rem 1.25rem;
               }
               &:nth-of-type(1) {
@@ -114,7 +123,8 @@
   #main-footer {
     padding: 4rem 0 2rem 0;
     .container {
-      footer { // #footer-sidebar .row .widget-area
+      footer {
+        // #footer-sidebar .row .widget-area
         > div {
           // footer sidebar columns bottom margins
           margin-bottom: 1.25rem;
@@ -127,25 +137,28 @@
       .row {
         padding: 1.5rem 0;
         > div {
-          &:nth-of-type(1) { // column 1
+          &:nth-of-type(1) {
+            // column 1
             // mobile properties reset
             padding-bottom: 0;
             text-align: left;
           }
-          &:nth-of-type(2) { // column 2
+          &:nth-of-type(2) {
+            // column 2
             position: relative;
             background-color: transparent;
             border-top: none;
             text-align: right;
             .btn-group {
               width: auto;
-              button { // .btn-colophon .dropdown-toggle .btn
+              button {
+                // .btn-colophon .dropdown-toggle .btn
                 width: auto;
-                padding: .5rem 1rem;
+                padding: 0.5rem 1rem;
                 @include rfs(12);
                 background-color: #6c757d;
                 color: #e9e9e9;
-                border-radius: .25rem;
+                border-radius: 0.25rem;
               }
             }
           }
@@ -154,4 +167,3 @@
     }
   }
 }
-
