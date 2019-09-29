@@ -1,24 +1,12 @@
 /*
 Theme Name: PM
 
-WooCommerce styles override
+WooCommerce styles override with Bootstrap support
 */
 
+// Single Product
 .woocommerce .entry-summary {
   margin-bottom: 3rem;
-}
-.woocommerce .site-main {
-	margin: 2rem 0;
-}
-.woocommerce .products {
-  margin: 0 auto;
-}
-.woocommerce .products .product {
-  text-align: center;
-}
-.woocommerce .product .attachment-woocommerce_thumbnail {
-  padding: 1rem;
-  margin-bottom: 1rem;
 }
 .single-product div.product {
   width: 100%;
@@ -103,6 +91,11 @@ $woocommerce__color-info: #3D9CD2;
  * Single product
  */
 @import "shop/single-product";
+
+/**
+ * Cart
+ */
+@import "shop/cart";
 
 /**
  * Checkout

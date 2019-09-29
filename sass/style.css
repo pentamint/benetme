@@ -10139,34 +10139,17 @@ button:active, button:focus, input[type="button"]:active, input[type="button"]:f
 /*
 Theme Name: PM
 
-WooCommerce styles override
+WooCommerce styles override with Bootstrap support
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_plugin-woocommerce\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_plugin-woocommerce\.scss}line{font-family:\000038}}
 .woocommerce .entry-summary {
   margin-bottom: 3rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_plugin-woocommerce\.scss}line{font-family:\0000310}}
-.woocommerce .site-main {
-  margin: 2rem 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_plugin-woocommerce\.scss}line{font-family:\0000313}}
-.woocommerce .products {
-  margin: 0 auto; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_plugin-woocommerce\.scss}line{font-family:\0000316}}
-.woocommerce .products .product {
-  text-align: center; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_plugin-woocommerce\.scss}line{font-family:\0000319}}
-.woocommerce .product .attachment-woocommerce_thumbnail {
-  padding: 1rem;
-  margin-bottom: 1rem; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_plugin-woocommerce\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_plugin-woocommerce\.scss}line{font-family:\0000311}}
 .single-product div.product {
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_plugin-woocommerce\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_plugin-woocommerce\.scss}line{font-family:\0000314}}
 .woocommerce-product-gallery .wp-post-image {
   height: 95vw;
   padding: 4rem;
@@ -10174,20 +10157,20 @@ WooCommerce styles override
   text-align: center;
   font-weight: 700; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_plugin-woocommerce\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_plugin-woocommerce\.scss}line{font-family:\0000321}}
 .product_meta {
   margin-bottom: 2rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_plugin-woocommerce\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_plugin-woocommerce\.scss}line{font-family:\0000324}}
 .related.products h2 {
   margin-bottom: 2rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_plugin-woocommerce\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_plugin-woocommerce\.scss}line{font-family:\0000327}}
 .related.products .woocommerce-loop-product__link img {
   margin-bottom: 2rem;
   padding: 1rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_plugin-woocommerce\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_plugin-woocommerce\.scss}line{font-family:\0000331}}
 .related.products .products {
   display: -webkit-box;
   display: -webkit-flex;
@@ -10195,42 +10178,42 @@ WooCommerce styles override
   display: -ms-flexbox;
   display: flex; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_plugin-woocommerce\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_plugin-woocommerce\.scss}line{font-family:\0000334}}
 .related.products .products .product {
   text-align: center; }
 
 @media (min-width: 576px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_plugin-woocommerce\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_plugin-woocommerce\.scss}line{font-family:\0000338}}
   .woocommerce-product-gallery .wp-post-image {
     height: 85vw; } }
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_plugin-woocommerce\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_plugin-woocommerce\.scss}line{font-family:\0000343}}
   .woocommerce .entry-summary {
     float: left;
     width: 35%;
     padding: 3rem 0 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_plugin-woocommerce\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_plugin-woocommerce\.scss}line{font-family:\0000348}}
   .woocommerce .woocommerce-product-gallery {
     float: left;
     width: 60%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_plugin-woocommerce\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_plugin-woocommerce\.scss}line{font-family:\0000352}}
   .woocommerce-product-gallery .wp-post-image {
     margin: 0 auto;
     height: 55vw;
     padding: 3rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_plugin-woocommerce\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_plugin-woocommerce\.scss}line{font-family:\0000357}}
   .related.products .woocommerce-loop-product__link img {
     padding: 2rem; } }
 @media (min-width: 992px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_plugin-woocommerce\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_plugin-woocommerce\.scss}line{font-family:\0000362}}
   .woocommerce-product-gallery .wp-post-image {
     height: 60vw;
     padding: 4rem; } }
 @media (min-width: 1200px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_plugin-woocommerce\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_plugin-woocommerce\.scss}line{font-family:\0000368}}
   .woocommerce-product-gallery .wp-post-image {
     height: 52vw; } }
 /**
@@ -10242,49 +10225,107 @@ WooCommerce styles override
 /**
  * Shop tables
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\000037}}
 table.shop_table_responsive thead {
   display: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\0000310}}
+  table.shop_table_responsive thead tr th {
+    background-color: #f8f8f8;
+    border-top: 1px solid #888;
+    border-bottom: 1px solid #ccc; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\0000318}}
 table.shop_table_responsive tbody th {
   display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\0000323}}
 table.shop_table_responsive tr td {
   display: block;
   text-align: right;
   clear: both; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\0000328}}
   table.shop_table_responsive tr td:before {
     content: attr(data-title) ": ";
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\0000334}}
   table.shop_table_responsive tr td.product-remove a {
     text-align: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\0000338}}
   table.shop_table_responsive tr td.product-remove:before {
     display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\0000345}}
   table.shop_table_responsive tr td.actions:before, table.shop_table_responsive tr td.download-actions:before {
     display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\0000351}}
   table.shop_table_responsive tr td.download-actions .button {
     display: block;
     text-align: center; }
 
 @media screen and (min-width: 48em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\0000362}}
   table.shop_table_responsive thead {
     display: table-header-group; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\0000365}}
+    table.shop_table_responsive thead tr th {
+      padding: 7px 0;
+      text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\0000369}}
+    table.shop_table_responsive thead tr .product-name {
+      text-align: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\0000375}}
   table.shop_table_responsive tbody th {
     display: table-cell; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\0000366}}
-  table.shop_table_responsive tr th, table.shop_table_responsive tr td {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\0000378}}
+  table.shop_table_responsive tbody tr.cart_item {
+    border-bottom: 1px solid #ccc; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\0000380}}
+    table.shop_table_responsive tbody tr.cart_item td {
+      text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\0000384}}
+    table.shop_table_responsive tbody tr.cart_item .product-remove .remove {
+      font-size: 1.375rem;
+      display: table-cell;
+      padding: 3px 3px 8px 3px;
+      line-height: 9px;
+      background-color: #f8f8f8;
+      color: #000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\0000393}}
+    table.shop_table_responsive tbody tr.cart_item .product-thumbnail {
+      padding: 2rem 1rem;
+      width: 190px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\0000397}}
+    table.shop_table_responsive tbody tr.cart_item .product-name {
+      padding: 2rem 1rem;
+      text-align: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\00003100}}
+      table.shop_table_responsive tbody tr.cart_item .product-name a {
+        display: block;
+        margin-bottom: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\00003105}}
+      table.shop_table_responsive tbody tr.cart_item .product-name .variation dt {
+        font-size: 0.75rem;
+        font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\00003109}}
+      table.shop_table_responsive tbody tr.cart_item .product-name .variation dd {
+        margin-bottom: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\00003111}}
+        table.shop_table_responsive tbody tr.cart_item .product-name .variation dd p {
+          margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\00003119}}
+  table.shop_table_responsive tbody .coupon {
+    padding: 2rem 0;
+    border-bottom: 1px solid #ccc; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\00003122}}
+    table.shop_table_responsive tbody .coupon label[for=coupon_code] {
+      margin-right: 1rem;
+      font-size: 16px;
+      font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\00003131}}
+  table.shop_table_responsive tr th,
+  table.shop_table_responsive tr td {
     text-align: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\00003136}}
   table.shop_table_responsive tr td {
     display: table-cell; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_tables\.scss}line{font-family:\00003139}}
     table.shop_table_responsive tr td:before {
       display: none; } }
 /**
@@ -10293,65 +10334,98 @@ table.shop_table_responsive tr td {
 /**
  * Products
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_products\.scss}line{font-family:\000034}}
-ul.products {
-  margin: 0;
-  padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/bootstrap\/scss\/mixins\/_clearfix\.scss}line{font-family:\000032}}
-  ul.products::after {
-    display: block;
-    clear: both;
-    content: ""; }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_products\.scss}line{font-family:\000039}}
-  ul.products li.product {
-    list-style: none;
-    position: relative;
-    margin-bottom: 2em; }
+.woocommerce .site-content #primary .site-main {
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_products\.scss}line{font-family:\0000311}}
+  .woocommerce .site-content #primary .site-main .woocommerce-products-header {
+    margin-bottom: 2rem; }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_products\.scss}line{font-family:\0000314}}
-    ul.products li.product .woocommerce-loop-product__title {
-      font-size: 1rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_products\.scss}line{font-family:\0000318}}
-    ul.products li.product img {
-      display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_products\.scss}line{font-family:\0000322}}
-    ul.products li.product .button {
-      display: block; }
+  .woocommerce .site-content #primary .site-main .woocommerce-result-count {
+    position: absolute;
+    top: 0;
+    right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_products\.scss}line{font-family:\0000319}}
+  .woocommerce .site-content #primary .site-main .woocommerce-ordering {
+    position: absolute;
+    top: 35px;
+    right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_products\.scss}line{font-family:\0000325}}
+  .woocommerce .site-content #primary .site-main .columns-3 ul.products {
+    margin: 0;
+    padding: 0;
+    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/bootstrap\/scss\/mixins\/_clearfix\.scss}line{font-family:\000032}}
+    .woocommerce .site-content #primary .site-main .columns-3 ul.products::after {
+      display: block;
+      clear: both;
+      content: ""; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_products\.scss}line{font-family:\0000330}}
+    .woocommerce .site-content #primary .site-main .columns-3 ul.products li.product {
+      list-style: none;
+      position: relative;
+      margin-bottom: 3rem;
+      text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_products\.scss}line{font-family:\0000336}}
+      .woocommerce .site-content #primary .site-main .columns-3 ul.products li.product a.woocommerce-loop-product__link .onsale {
+        position: absolute;
+        padding: 0.25rem 1rem;
+        top: 15px;
+        left: -10px;
+        background-color: #000;
+        color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_products\.scss}line{font-family:\0000344}}
+      .woocommerce .site-content #primary .site-main .columns-3 ul.products li.product a.woocommerce-loop-product__link img {
+        display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_products\.scss}line{font-family:\0000347}}
+      .woocommerce .site-content #primary .site-main .columns-3 ul.products li.product a.woocommerce-loop-product__link img.attachment-woocommerce_thumbnail {
+        margin-bottom: 1rem;
+        width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_products\.scss}line{font-family:\0000351}}
+      .woocommerce .site-content #primary .site-main .columns-3 ul.products li.product a.woocommerce-loop-product__link h2.woocommerce-loop-product__title {
+        font-size: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_products\.scss}line{font-family:\0000354}}
+      .woocommerce .site-content #primary .site-main .columns-3 ul.products li.product a.woocommerce-loop-product__link .button {
+        display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_products\.scss}line{font-family:\0000358}}
+      .woocommerce .site-content #primary .site-main .columns-3 ul.products li.product a.product_type_variable {
+        display: none; }
 
 @media screen and (min-width: 48em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_products\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_products\.scss}line{font-family:\0000371}}
   ul.products li.product {
     width: 30.7966666667%;
     float: left;
     margin-right: 3.8%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_products\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_products\.scss}line{font-family:\0000376}}
     ul.products li.product.first {
       clear: both; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_products\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_products\.scss}line{font-family:\0000380}}
     ul.products li.product.last {
       margin-right: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_products\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_products\.scss}line{font-family:\0000388}}
   .columns-1 ul.products li.product {
     float: none;
     width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_products\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_products\.scss}line{font-family:\0000398}}
   .columns-2 ul.products li.product {
     width: 48.1%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_products\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_products\.scss}line{font-family:\0000398}}
   .columns-3 ul.products li.product {
     width: 30.7966666667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_products\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_products\.scss}line{font-family:\0000398}}
   .columns-4 ul.products li.product {
     width: 22.15%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_products\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_products\.scss}line{font-family:\0000398}}
   .columns-5 ul.products li.product {
     width: 16.96%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_products\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_products\.scss}line{font-family:\0000398}}
   .columns-6 ul.products li.product {
     width: 13.4933333333%; } }
 /**
@@ -10500,11 +10574,40 @@ ul.products {
   color: #e2401c; }
 
 /**
+ * Cart
+ */
+/**
+ * Cart
+ */
+@media screen and (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_cart\.scss}line{font-family:\000039}}
+  body.woocommerce-cart .entry-header h1.entry-title {
+    margin-bottom: 2rem; } }
+/**
  * Checkout
  */
 /**
  * Checkout
  */
+@media screen and (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_checkout\.scss}line{font-family:\000038}}
+  body.woocommerce-checkout .entry-header h1.entry-title {
+    margin-bottom: 2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_checkout\.scss}line{font-family:\0000315}}
+  body.woocommerce-checkout .entry-content .woocommerce form.checkout .col2-set {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_checkout\.scss}line{font-family:\0000317}}
+    body.woocommerce-checkout .entry-content .woocommerce form.checkout .col2-set .col-1 {
+      flex: 0 0 50%;
+      max-width: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/shop\/_checkout\.scss}line{font-family:\0000321}}
+    body.woocommerce-checkout .entry-content .woocommerce form.checkout .col2-set .col-2 {
+      flex: 0 0 50%;
+      max-width: 50%; } }
 /**
  * General WooCommerce components
  */
@@ -10856,23 +10959,16 @@ p.no-comments {
           background-color: #191e23;
           color: #e9e9e9; } }
 @media (min-width: 992px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/_colors\.scss}line{font-family:\00003114}}
-  .site-header #top-header {
-    background-color: #fff;
-    border-top-color: #2643AD; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/_colors\.scss}line{font-family:\00003120}}
-    .site-header #top-header li:not(:first-child):before {
-      background-color: #e2e2e2; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/_colors\.scss}line{font-family:\00003137}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/_colors\.scss}line{font-family:\00003126}}
   .site-header #main-header .container nav .nav-wrapper .navbar-collapse > ul > li > a:hover {
-    color: #f6be07; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/_colors\.scss}line{font-family:\00003143}}
+    color: #05385b; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/_colors\.scss}line{font-family:\00003132}}
   .site-header #main-header .container nav .nav-wrapper .navbar-collapse > ul > li.current-menu-item > a {
-    color: #f6be07; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/_colors\.scss}line{font-family:\00003163}}
+    color: #05385b; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/_colors\.scss}line{font-family:\00003152}}
 #mobile-header-widget-1 a {
   color: #333; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/_colors\.scss}line{font-family:\00003166}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/_colors\.scss}line{font-family:\00003155}}
   #mobile-header-widget-1 a:hover {
     color: #2643AD; }
 
@@ -11011,7 +11107,7 @@ a {
     color: #333; }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/navigation\/_links\.scss}line{font-family:\000037}}
   a:hover, a:focus, a:active {
-    color: #f6be07; }
+    color: #05385b; }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/navigation\/_links\.scss}line{font-family:\0000312}}
   a:focus {
     outline: 0; }
@@ -11422,115 +11518,121 @@ header #main-header .container nav {
     display: flex; }
 
 @media (min-width: 992px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/header\/_top-header\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/header\/_top-header\.scss}line{font-family:\0000315}}
   #top-header {
     display: block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/header\/_top-header\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/header\/_top-header\.scss}line{font-family:\0000320}}
   .site-header.sticky #top-header {
     display: none; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/header\/_top-header\.scss}line{font-family:\0000325}}
   #top-header {
-    border-bottom: 1px solid #e9e9e9; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/header\/_top-header\.scss}line{font-family:\0000333}}
+    border-bottom: 1px solid #e9e9e9; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/header\/_top-header\.scss}line{font-family:\0000328}}
+    #top-header li:not(:first-child):before {
+      background-color: #e2e2e2; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/header\/_top-header\.scss}line{font-family:\0000336}}
 #top-header .container {
   height: 0; }
 
 @media (min-width: 576px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/header\/_top-header\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/header\/_top-header\.scss}line{font-family:\0000341}}
   #top-header .container {
     height: 0; } }
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/header\/_top-header\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/header\/_top-header\.scss}line{font-family:\0000347}}
   #top-header .container {
     height: 0; } }
 @media (min-width: 992px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/header\/_top-header\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/header\/_top-header\.scss}line{font-family:\0000353}}
   #top-header .container {
     height: 35px; } }
 @media (min-width: 1200px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/header\/_top-header\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/header\/_top-header\.scss}line{font-family:\0000359}}
   #top-header .container {
     height: 35px; } }
 /* ----- Theme Custom ----- */
 /* --- Top Header Design --- */
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/_header\.scss}line{font-family:\0000332}}
-#top-header .container #header-widget-1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  align-items: center;
-  width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/_header\.scss}line{font-family:\0000338}}
-  #top-header .container #header-widget-1 .widget .textwidget p {
-    display: block;
-    font-size: 0.6875rem;
-    font-weight: 700;
-    margin-bottom: 0;
-    margin-top: 0.2rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/_header\.scss}line{font-family:\0000349}}
-#top-header .container nav.navbar-top-header-left {
-  width: 100%;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  -webkit-justify-content: flex-start;
-  -moz-justify-content: flex-start;
-  justify-content: flex-start; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/_header\.scss}line{font-family:\0000354}}
-  #top-header .container nav.navbar-top-header-left .nav-wrapper .navbar-collapse {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/_header\.scss}line{font-family:\0000329}}
+#top-header {
+  background-color: #f8f8f8; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/_header\.scss}line{font-family:\0000333}}
+  #top-header .container #header-widget-1 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flexbox;
-    display: flex; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/_header\.scss}line{font-family:\0000361}}
-    #top-header .container nav.navbar-top-header-left .nav-wrapper .navbar-collapse > ul > li:not(:first-child):before {
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/_header\.scss}line{font-family:\0000339}}
+    #top-header .container #header-widget-1 .widget .textwidget p {
       display: block;
-      position: absolute;
-      top: 14px;
-      right: 58px;
-      width: 1px;
-      height: 0.5rem;
-      content: ""; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/_header\.scss}line{font-family:\0000376}}
-#top-header .container nav.navbar-top-header-right {
-  width: 100%;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  -webkit-justify-content: flex-end;
-  -moz-justify-content: flex-end;
-  justify-content: flex-end; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/_header\.scss}line{font-family:\0000381}}
-  #top-header .container nav.navbar-top-header-right .nav-wrapper .navbar-collapse {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
-    display: flex; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/_header\.scss}line{font-family:\0000388}}
-    #top-header .container nav.navbar-top-header-right .nav-wrapper .navbar-collapse > ul > li:not(:first-child):before {
-      display: block;
-      position: absolute;
-      top: 14px;
-      right: 58px;
-      width: 1px;
-      height: 0.5rem;
-      content: ""; }
+      font-size: 0.6875rem;
+      font-weight: 700;
+      margin-bottom: 0;
+      margin-top: 0.2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/_header\.scss}line{font-family:\0000350}}
+  #top-header .container nav.navbar-top-header-left {
+    width: 100%;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    -webkit-justify-content: flex-start;
+    -moz-justify-content: flex-start;
+    justify-content: flex-start; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/_header\.scss}line{font-family:\0000355}}
+    #top-header .container nav.navbar-top-header-left .nav-wrapper .navbar-collapse {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/_header\.scss}line{font-family:\0000362}}
+      #top-header .container nav.navbar-top-header-left .nav-wrapper .navbar-collapse > ul > li:not(:first-child):before {
+        display: block;
+        position: absolute;
+        top: 14px;
+        right: 58px;
+        width: 1px;
+        height: 0.5rem;
+        content: ""; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/_header\.scss}line{font-family:\0000377}}
+  #top-header .container nav.navbar-top-header-right {
+    width: 100%;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    -webkit-justify-content: flex-end;
+    -moz-justify-content: flex-end;
+    justify-content: flex-end; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/_header\.scss}line{font-family:\0000382}}
+    #top-header .container nav.navbar-top-header-right .nav-wrapper .navbar-collapse {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/_header\.scss}line{font-family:\0000389}}
+      #top-header .container nav.navbar-top-header-right .nav-wrapper .navbar-collapse > ul > li:not(:first-child):before {
+        display: block;
+        position: absolute;
+        top: 14px;
+        right: 58px;
+        width: 1px;
+        height: 0.5rem;
+        content: ""; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/_header\.scss}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/_header\.scss}line{font-family:\00003106}}
 body.logged-in #top-header .container .navbar-top-header-right .nav-wrapper .navbar-nav li:not(:first-child):before {
   right: 68px; }
 
 /* --- Main Header Design --- */
 @media (min-width: 992px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/_header\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/_header\.scss}line{font-family:\00003117}}
   .site-header #main-header .container .site-branding a {
     padding-top: 18px; } }
 /*--------------------------------------------------------------
@@ -11732,10 +11834,10 @@ body.has-sidebar #primary {
         text-align: right; }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/content\/_front-page\.scss}line{font-family:\0000379}}
         .page-id-19 .line_notice .container .row .view_more_btn a {
-          color: #f6be07; }
+          color: #05385b; }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/content\/_front-page\.scss}line{font-family:\0000381}}
           .page-id-19 .line_notice .container .row .view_more_btn a:hover {
-            color: #AD8515; }
+            color: #1f2d60; }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/content\/_front-page\.scss}line{font-family:\0000386}}
       .page-id-19 .line_notice .container .row .promo_preview_title {
         padding-left: 0;
@@ -11879,7 +11981,7 @@ body.has-sidebar #primary {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/_footer\.scss}line{font-family:\000035}}
 #main-footer {
-  background-color: #e2e2e2;
+  background-color: #f8f8f8;
   border-color: #e2e2e2; }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/theme\/_footer\.scss}line{font-family:\000038}}
   #main-footer .container {
@@ -12095,7 +12197,7 @@ nav.navbar-primary #searchform-container form .input-group > span > button {
       fill: #fff; }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_ui-social-widget\.scss}line{font-family:\0000327}}
     .social_links > a:hover svg path {
-      fill: #f6be07; }
+      fill: #05385b; }
 
 @media (min-width: 992px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Downloads\/\!\%20\!\%20\!\%20Git\%20Projects\/benetme\/sass\/sass\/pm\/modules\/_ui-social-widget\.scss}line{font-family:\0000335}}

@@ -1,63 +1,104 @@
 /**
  * Products
  */
-ul.products {
-	@include clearfix;
-	margin: 0;
-	padding: 0;
 
-	li.product {
-		list-style: none;
-		position: relative;
-		margin-bottom: 2em;
-
-		.woocommerce-loop-product__title {
-			font-size: 1rem;
-		}
-
-		img {
-			display: block;
-		}
-
-		.button {
-			display: block;
-		}
-	}
+// Shop Page
+.woocommerce {
+  .site-content {
+    #primary {
+      .site-main {
+        position: relative;
+        .woocommerce-products-header {
+          margin-bottom: 2rem;
+        }
+        .woocommerce-result-count {
+          position: absolute;
+          top: 0;
+          right: 0;
+        }
+        .woocommerce-ordering {
+          position: absolute;
+          top: 35px;
+          right: 0;
+        }
+        .columns-3 {
+          ul.products {
+            @include clearfix;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            li.product {
+              list-style: none;
+              position: relative;
+              margin-bottom: 3rem;
+              text-align: center;
+              a.woocommerce-loop-product__link {
+                .onsale {
+                  position: absolute;
+                  padding: 0.25rem 1rem;
+                  top: 15px;
+                  left: -10px;
+                  background-color: #000;
+                  color: #fff;
+                }
+                img {
+                  display: block;
+                }
+                img.attachment-woocommerce_thumbnail {
+                  margin-bottom: 1rem;
+                  width: 100%;
+                }
+                h2.woocommerce-loop-product__title {
+                  font-size: 1rem;
+                }
+                .button {
+                  display: block;
+                }
+              }
+              a.product_type_variable  {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media screen and (min-width: 48em) {
-	ul.products {
-		li.product {
-			@include column-width(3);
-			float: left;
-			margin-right: $columns__margin;
+  ul.products {
+    li.product {
+      @include column-width(3);
+      float: left;
+      margin-right: $columns__margin;
 
-			&.first {
-				clear: both;
-			}
+      &.first {
+        clear: both;
+      }
 
-			&.last {
-				margin-right: 0;
-			}
-		}
-	}
+      &.last {
+        margin-right: 0;
+      }
+    }
+  }
 
-	.columns-1 {
-		ul.products {
-			li.product {
-				float: none;
-				width: 100%;
-			}
-		}
-	}
+  .columns-1 {
+    ul.products {
+      li.product {
+        float: none;
+        width: 100%;
+      }
+    }
+  }
 
-	@for $i from 2 through 6 {
-		.columns-#{$i} {
-			ul.products {
-				li.product {
-					@include column-width( $i );
-				}
-			}
-		}
-	}
+  @for $i from 2 through 6 {
+    .columns-#{$i} {
+      ul.products {
+        li.product {
+          @include column-width($i);
+        }
+      }
+    }
+  }
 }

@@ -110,9 +110,8 @@
       $('#secondary').detach().appendTo('#primary');
     };
     // Wrap content area with container class for no sidebar Woocommerce layout
-    if ( !$('body').hasClass('has-sidebar') ) {
-      $('.woocommerce:not(.archive) .content-area').wrapAll("<div class='container' />");
-      $('.woocommerce:not(.search) .content-area').wrapAll("<div class='container' />");
+    if ( $('body').hasClass('woocommerce') && !$('body').hasClass('has-sidebar') && !$('body').hasClass('archive') && !$('body').hasClass('search') ) {
+      $('body.woocommerce .content-area').wrapAll("<div class='container' />");
     }
   });
 

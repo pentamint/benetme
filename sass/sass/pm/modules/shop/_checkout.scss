@@ -2,5 +2,30 @@
  * Checkout
  */
 @media screen and (min-width: 768px) {
-
+  body {
+    &.woocommerce-checkout {
+      .entry-header {
+        h1.entry-title {
+          margin-bottom: 2rem;
+        }
+      }
+      .entry-content {
+        .woocommerce {
+          form.checkout {
+            .col2-set {
+              @include flexbox;
+              .col-1 {
+                flex: 0 0 50%;
+                max-width: 50%;
+              }
+              .col-2 {
+                flex: 0 0 50%;
+                max-width: 50%;
+              }              
+            }
+          }
+        }
+      }
+    }
+  }
 }

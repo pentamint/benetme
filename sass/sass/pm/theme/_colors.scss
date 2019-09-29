@@ -110,17 +110,6 @@
 @media (min-width: 992px) {
   // ----- PC Header ----- //
   .site-header {
-    // #masthead header
-    #top-header {
-      // Top header background
-      background-color: $base-color;
-      // PC header border top
-      border-top-color: $secondary-color;
-      // Top header right widget divider
-      li:not(:first-child):before {
-        background-color: $line-color;
-      }
-    }
     #main-header {
       .container {
         nav {
