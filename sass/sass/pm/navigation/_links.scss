@@ -1,22 +1,23 @@
 a {
 	color: $font-color;
 
-	&:visited {
-		color: $font-color;
-	}
-	&:hover,
-	&:focus,
-	&:active {
+	&:hover {
+		text-decoration: none;
 		color: $font-color-ng-ac;
 	}
 	&:focus {
 		outline: 0;
 	}
+	&:visited {
+		// color: $font-color;
+	}
 	&:hover,
 	&:active {
 		outline: 0;
 	}
-	&:hover {
-		text-decoration: none;
+	&:hover,
+	&:focus,
+	&:active {
+		// color: $font-color-ng-ac;
 	}
 }

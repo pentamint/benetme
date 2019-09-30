@@ -1,0 +1,43 @@
+// --- Shop Page
+body.woocommerce {
+  // Onsale Sticker
+  ul.products li.product a.woocommerce-loop-product__link .onsale {
+    padding: 0.25rem 1rem;
+    background-color: #000;
+    color: #fff;
+  }
+  &.archive {
+    ul.products li.product a.woocommerce-loop-product__link .onsale {
+      top: 15px;
+      left: -10px;
+    }
+  }
+  &.single-product {
+    ul.products li.product a.woocommerce-loop-product__link .onsale {
+      top: 45px;
+      left: 20px;
+    }
+  }
+  // Paginations
+  .woocommerce-pagination {
+    ul.page-numbers {
+      li {
+        .page-numbers {
+          border: 1px solid #ccc;
+        }
+        .page-numbers.current {
+          background-color: #191e23;
+          color: #fff;
+        }
+        .page-numbers.prev,
+        .page-numbers.next {
+          border: 0;
+          // color: #000;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 48em) {
+}

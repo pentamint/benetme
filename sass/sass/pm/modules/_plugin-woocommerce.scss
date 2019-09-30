@@ -21,25 +21,40 @@ WooCommerce styles override with Bootstrap support
 .product_meta {
   margin-bottom: 2rem;
 }
-.related.products h2 {
-  margin-bottom: 2rem;
+// Tabs
+
+// Related Products
+.related.products {
+  h2 {
+    margin-bottom: 2rem;
+  }
+  .woocommerce-loop-product__link img {
+    margin-bottom: 2rem;
+    padding: 1rem;
+  }
+  .products {
+    @include flexbox;
+    .product {
+      position: relative;
+      text-align: center;
+    }
+  }
 }
-.related.products .woocommerce-loop-product__link img {
-  margin-bottom: 2rem;
-  padding: 1rem;
+// Onsale Sticker
+body.woocommerce {
+  ul.products li.product a.woocommerce-loop-product__link .onsale {
+    position: absolute;
+  }
 }
-.related.products .products {
-  @include flexbox;
-}
-.related.products .products .product {
-  text-align: center;
-}
-@include media-breakpoint-up(sm) { // 576px and up
+
+@include media-breakpoint-up(sm) {
+  // 576px and up
   .woocommerce-product-gallery .wp-post-image {
     height: 85vw;
   }
 }
-@include media-breakpoint-up(md) { // 768px and up
+@include media-breakpoint-up(md) {
+  // 768px and up
   .woocommerce .entry-summary {
     float: left;
     width: 35%;
@@ -58,13 +73,15 @@ WooCommerce styles override with Bootstrap support
     padding: 2rem;
   }
 }
-@include media-breakpoint-up(lg) { // 992px and up
+@include media-breakpoint-up(lg) {
+  // 992px and up
   .woocommerce-product-gallery .wp-post-image {
     height: 60vw;
     padding: 4rem;
   }
 }
-@include media-breakpoint-up(xl) { // 1200px and up
+@include media-breakpoint-up(xl) {
+  // 1200px and up
   .woocommerce-product-gallery .wp-post-image {
     height: 52vw;
   }
@@ -75,7 +92,7 @@ WooCommerce styles override with Bootstrap support
  */
 $woocommerce__color-error: #e2401c;
 $woocommerce__color-success: #0f834d;
-$woocommerce__color-info: #3D9CD2;
+$woocommerce__color-info: #3d9cd2;
 
 /**
  * Shop tables
@@ -113,4 +130,4 @@ $woocommerce__color-info: #3D9CD2;
 @import "shop/widgets";
 
 // Woocommerce breadcrumbs
-@import "plugin-woocommerce-breadcrumbs"
+@import "plugin-woocommerce-breadcrumbs";
