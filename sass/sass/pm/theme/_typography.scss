@@ -13,11 +13,29 @@ textarea {
 	@include rfs(14);
 	line-height: $font__line-height-body;
 }
-h2 {
+h1, h2, h3, h4, h5, h6 {
 	font-family: $font__title;
-	@include rfs(22);
 	font-weight: 700;
 }
+h1 {
+	@include rfs(24);
+}
+h2 {
+	@include rfs(22);
+}
+h3 {
+	@include rfs(20);
+}
+h4 {
+	@include rfs(18);
+}
+h5 {
+	@include rfs(16);
+}
+h6 {
+	@include rfs(14);
+}
+
 @include media-breakpoint-up(sm) { // 576px and up
 
 }

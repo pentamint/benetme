@@ -1,6 +1,52 @@
 /**
  * Checkout
  */
+.woocommerce-checkout {
+  .woocommerce-info {
+    // checkout msg
+    @include flexbox;
+    @include flex-wrap(wrap);
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    line-height: 1.75rem;
+    .showcoupon {
+      margin-left: 10px;
+    }
+  }
+  form.checkout {
+    #customer_details {
+      padding: 2rem 0;
+      .woocommerce-billing-fields, .woocommerce-shipping-fields, .woocommerce-additional-fields {
+        h3 {
+          margin-bottom: 1rem;
+        }
+        .form-row {
+          @include flex-direction(column);
+        }
+      }
+      .woocommerce-input-wrapper {
+        input.input-text {
+          width: 100%;
+        }
+      }
+    }
+    #order_review_heading {
+      padding-top: 2rem;
+      border-top: 1px solid #ccc;
+    }
+    .woocommerce-checkout-review-order {
+      table.woocommerce-checkout-review-order-table {
+
+      }
+      .woocommerce-checkout-payment {
+        padding: 2rem 0;
+        border-top: 1px solid #ccc;
+      }
+    }
+  }
+}
+
 @media screen and (min-width: 768px) {
   body {
     &.woocommerce-checkout {
@@ -11,21 +57,34 @@
       }
       .entry-content {
         .woocommerce {
-          form.checkout {
-            .col2-set {
-              @include flexbox;
-              .col-1 {
-                flex: 0 0 50%;
-                max-width: 50%;
-              }
-              .col-2 {
-                flex: 0 0 50%;
-                max-width: 50%;
-              }              
-            }
-          }
+          form.checkout {}
         }
       }
+    }
+  }
+}
+
+// Bootstrap Support
+.woocommerce-checkout .form-row {
+  margin-right: 0;
+  margin-left: 0;
+}
+.woocommerce-checkout .woocommerce-checkout .col2-set {
+  @include flexbox;
+
+  margin-right: -15px;
+  margin-left: -15px;
+  .col-1, .col-2 {
+    @include flex(0 0 100%);
+    max-width: 100%;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .woocommerce-checkout .woocommerce-checkout .col2-set {
+    .col-1, .col-2 {
+      @include flex(0 0 50%);
+      max-width: 50%;
     }
   }
 }

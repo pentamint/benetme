@@ -2,6 +2,7 @@
 .site-header {
   // #masthead
   position: relative; // pro tip - make box shadow visible!
+  z-index: 999; // place header above page
   -webkit-box-shadow: 0px 3px 64px -17px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 3px 64px -17px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 3px 64px -17px rgba(0, 0, 0, 0.75);

@@ -1,17 +1,21 @@
-.site-header { // #masthead
+.site-header {
+  // #masthead
   top: 0;
+
   &.sticky {
     position: fixed;
     left: 0;
     right: 0;
     z-index: 1000;
+
     #main-header {
       .container {
         .site-branding {
-          >a { // .custom-logo-link
-            // Mobile Fixed Header Logo Size
-            max-width: $size__logo-mobile-fixed-x;
-            >img { // .custom-logo
+          >a {
+
+            >img {
+              // .custom-logo
+              max-width: $size__logo-mobile-fixed-x;
               max-height: $size__logo-mobile-fixed-y;
             }
           }
@@ -26,21 +30,28 @@
     top: 46px;
   }
 }
+
 @media screen and (min-width: 783px) {
   .admin-bar .site-header.sticky {
     top: 32px;
   }
 }
+
 @include media-breakpoint-up($breakpoint__mobile-nav) {
-  .site-header { // #masthead
+  .site-header {
+
+    // #masthead
     &.sticky {
       #main-header {
         .container {
           .site-branding {
-            >a { // .custom-logo-link
+            >a {
+              // .custom-logo-link
               // PC fixed header logo size
               max-width: $size__logo-pc-fixed-x;
-              >img { // .custom-logo
+
+              >img {
+                // .custom-logo
                 max-height: $size__logo-pc-fixed-y;
               }
             }

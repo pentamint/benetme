@@ -28,10 +28,31 @@
 // add top padding
 .site-content { // #content
 	.content-area { // #primary
-		padding-top: 3rem;
+		padding-top: 1.75rem;
 	}
 }
 
+.entry-title {
+	@include rfs(24);
+    display: inline-block;
+	position: relative;
+	margin-bottom: 10px;
+    padding-bottom: 8px;
+}
+
+@include media-breakpoint-up($breakpoint__mobile-nav) {
+	// add top padding
+	.site-content { // #content
+		.content-area { // #primary
+			padding-top: 3rem;
+		}
+	}
+
+	.entry-title {
+		@include rfs(28);
+		margin-bottom: 1rem;
+	}
+}
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/

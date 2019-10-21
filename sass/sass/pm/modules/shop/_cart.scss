@@ -1,20 +1,82 @@
 /**
  * Cart
  */
+.woocommerce-cart {
+    .woocommerce-message {
+        margin: 15px 0;
+        padding: 10px;
+        background-color: #f9f9f9;
+    }
 
-@media screen and (min-width: 768px) {
-    body {
-        &.woocommerce-cart {
-            .entry-header {
-                h1.entry-title {
-                    margin-bottom: 2rem;
-                }
-            }
-            .entry-content {
-                .woocommerce {
-                    
+    // Cart Collaterals
+    .cart-collaterals {
+        @include flexbox;
+        @include flex-direction(column);
+
+        .cart_totals {
+            padding: 2rem 0;
+            .wc-proceed-to-checkout {
+                @include rfs(14);
+                display: inline-block;
+                margin: 20px 0;
+                padding: .75rem 1rem;
+                background-color: #333;
+                border: 1px solid #333;
+                border-radius: 3px;
+                line-height: 1;
+
+                a {
+                    color: #e6e6e6;
                 }
             }
         }
     }
 }
+
+// Cart Table Design
+table.shop_table_responsive {
+    thead {
+        tr {
+            th {
+                background-color: #f8f8f8;
+                border-top: 1px solid #888;
+                border-bottom: 1px solid #ccc;
+            }
+        }
+    }
+
+    tbody {
+        tr.cart_item {
+            border-bottom: 1px solid #ccc;
+
+            .product-remove {
+                .remove {
+                    background-color: #f8f8f8;
+                    color: #000;
+                }
+            }
+        }
+
+        td.actions {
+            border-bottom: 1px solid #ccc;
+            // Coupon
+            .coupon {
+                button {
+                    margin-right: 20px;
+                    background-color: #f9f9f9;
+                    color: #333;
+                    border: 1px solid #e9e9e9;
+                }
+            }
+        }
+    }
+}
+
+// Cross Sells Design
+.cross-sells {
+    border-bottom: 1px solid #ccc;
+}
+
+@media screen and (min-width: 48em) {}
+
+@media screen and (min-width: 768px) {}

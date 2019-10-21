@@ -23,6 +23,10 @@ header { // #masthead .site-header
           > button { // .navbar-toggle .hamburger
             position: absolute; // menu list allow change position
             z-index: 10; // position above mobile menu div
+            &.hamburger  {
+              border: 0;
+              background-color: transparent;
+            }
           }
           .navbar-collapse { // .menu-primary
             > ul { // #menu-primary-menu .navbar-nav

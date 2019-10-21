@@ -1,23 +1,5 @@
 // --- Shop Page
 body.woocommerce {
-  // Onsale Sticker
-  ul.products li.product a.woocommerce-loop-product__link .onsale {
-    padding: 0.25rem 1rem;
-    background-color: #000;
-    color: #fff;
-  }
-  &.archive {
-    ul.products li.product a.woocommerce-loop-product__link .onsale {
-      top: 15px;
-      left: -10px;
-    }
-  }
-  &.single-product {
-    ul.products li.product a.woocommerce-loop-product__link .onsale {
-      top: 45px;
-      left: 20px;
-    }
-  }
   // Paginations
   .woocommerce-pagination {
     ul.page-numbers {
